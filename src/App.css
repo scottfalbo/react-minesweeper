@@ -1,0 +1,66 @@
+@import url(./reset.css);
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+}
+
+body {
+  background: #000;
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  font-family: 'Orbitron', sans-serif;
+  outline: none;
+}
+
+#root {
+  margin: auto;
+  padding: 10px;
+}
+
+.app {
+  background: rgb(29, 29, 29);
+  width: fit-content;
+  margin: auto;
+}
+
+button:hover, table {
+  cursor: pointer;
+}
+
+.hide-me {
+  display: none;
+}
+
+.show-me {
+  display: inherit;
+}
+
+.toggle-box {
+  position: absolute;
+  background: rgb(61, 61, 61);
+  border: 2px solid rgb(133, 255, 160);
+  top: 62px;
+  width: 310px;
+  height: 280px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.close-window {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: #000;
+  color:rgb(151, 255, 168);
+  border-radius: 15px;
+  margin: auto;
+  border: 1px solid rgb(151, 255, 168);
+  line-height: 15px;
+}
+

@@ -1,0 +1,103 @@
+.game-board {
+  width: 100%;
+  padding: 10px;
+}
+
+.reader-board {
+  width: 300px;
+  height: 30px;
+  margin: 10px auto 0px auto;
+  background: #000;
+  padding: 5px;
+  font-family: 'Orbitron', sans-serif;
+  border-top: 1px solid rgb(24, 24, 24);
+  border-radius: 10px;
+}
+
+.reader-board p {
+  color: rgb(148, 255, 205);
+}
+
+.mine-field {
+  margin: 0px auto 20px auto;
+  background: #000;
+  border: 1px solid rgb(63, 63, 63);
+}
+
+td {
+  width: 20px;
+  height: 20px;
+}
+
+tr > td > div {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: none;
+}
+.highlighted {
+  background: rgba(184, 243, 129, .3);
+}
+
+.cell-button {
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #000;
+  padding: 0px;
+  outline: none;
+  background: rgb(68, 68, 68);
+}
+
+.cell-button img {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: -15px;
+  left: 0px;
+}
+
+.lost {
+  /* border: 3px solid red; */
+}
+
+.won {
+  /* border: 1px solid lightgreen; */
+}
+
+.c1 {
+  color: rgb(170, 249, 255);
+  text-shadow: 1px 1px 2px #000;
+}
+.c2 {
+  color: rgb(202, 255, 206);
+}
+.c3 {
+  color: rgb(255, 193, 189);
+}
+.c4 {
+  color: rgb(184, 184, 255);
+}
+.c5 {
+  color: rgb(148, 255, 205);
+}
+.c6 {
+  color: rgb(152, 176, 255);
+}
+.c7 {
+  color: rgb(255, 184, 166);
+}
+.c8 {
+  color: rgb(152, 152, 180);
+}
+.c9 {
+  display: none;
+}
+
+.no-text > p {
+  visibility: hidden;
+}
+
+.black-box {
+  display: none;
+}
+

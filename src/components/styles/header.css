@@ -1,0 +1,37 @@
+
+header {
+  margin:  10px auto;
+  height: 35px;
+  background: rgb(0, 0, 0);
+}
+header {
+  padding: 5px;
+}
+header>figure {
+  float: left;
+}
+
+header>h1 {
+  float: left;
+  color: rgb(152, 252, 143);
+  font-size: larger;
+}
+header nav {
+  float: right;
+  margin-left: 5px;
+}
+header li {
+  display: inline-block;
+}
+
+header button {
+  width: 120px;
+  height: 22px;
+  margin: 0px 5px;
+  background: #000;
+  color: rgb(151, 255, 168);
+  border-radius: 10px;
+  border: 1px solid rgba(151, 255, 168, .3);
+  padding: 1px;
+  text-align: center;
+}

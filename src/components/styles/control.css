@@ -1,0 +1,32 @@
+.controls h1 {
+    width: 130px;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background: #000;
+    color: rgb(151, 255, 168);
+    font-size: larger;
+    line-height: 30px;
+}
+
+
+.controls article p {
+    text-align: left;
+    margin: 10px 5px;
+    color: rgb(176, 197, 180);
+    background: #000;
+    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: 500;
+    color:rgb(126, 187, 136);
+}
+
+.controls .close-window {
+    bottom: 290px;
+    left: 150px;
+    outline: none;
+}

@@ -1,0 +1,45 @@
+.info-board {
+  margin: auto;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+}
+
+.info-board > div {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.display {
+  height: 30px;
+  background: rgb(0, 0, 0);
+  border: 1px solid rgba(152, 252, 143, .2);
+  width: 80px;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 10px;
+}
+.display>p {
+  margin: 2px auto;
+  font-size: x-large;
+  color: rgb(152, 252, 143)
+}
+
+.mine-tracker {
+  float: left;
+}
+
+.timer {
+  float: right;
+}
+
+.info-board button {
+  width: 80px;
+  height: 25px;
+  margin: 0px 5px;
+  background: #000;
+  color: rgb(151, 255, 168);
+  border-radius: 10px;
+  border: 1px solid rgba(151, 255, 168, .3);
+  padding: 1px;
+  text-align: center;
+}
