@@ -54,7 +54,8 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 + 12/19/20 -
   + Got most of the components re-built and functioning.
   + Refactored some clunky logic along the way.
-
++ 12/20/20 - 
+  + Refactors are finished.
 
 ## Contact
 + Email: Scottfalboart@gmail.com
