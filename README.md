@@ -56,6 +56,8 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
   + Refactored some clunky logic along the way.
 + 12/20/20 - 
   + Refactors are finished.
++ 12/21/20 - 
+  + Creating a `dev-main` branch so `main` be a deployable build.
 
 ## Contact
 + Email: Scottfalboart@gmail.com
