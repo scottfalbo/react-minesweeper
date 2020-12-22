@@ -59,6 +59,7 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 + 12/21/20 - 
   + Created `deploy` branch for deployment build
 
+
 ## Contact
 + Email: Scottfalboart@gmail.com
 + [GitHub](https://github.com/scottfalbo)
