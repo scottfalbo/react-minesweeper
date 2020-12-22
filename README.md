@@ -69,7 +69,4 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 + [Code Fellows](https://www.codefellows.org/)
 + [TreeHouse](https://teamtreehouse.com/home)
 + [Stack Overflow](https://stackoverflow.com/)
-# react-minesweeper
-# react-minesweeper
-# react-minesweeper
-# react-minesweeper
+
