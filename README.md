@@ -12,7 +12,8 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
   1. Clone the repo
   2. `cd` into the repo
   3. `npm install` for dependencies
-  4. `npm start` to open browser
+  4. `npm start`
+    + available at `http://localhost:3000`
 
 + Game Controls
   + **Left Click** to expose a square.
@@ -56,11 +57,8 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
   + Refactored some clunky logic along the way.
 + 12/20/20 - 
   + Refactors are finished.
-+ 12/21/20 - 
-  + Created `deploy` branch for deployment build
 + 03/27/2021 -
   + Fixed image path issue.
-
 
 ## Contact
 + Email: Scottfalboart@gmail.com
@@ -71,3 +69,4 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 + [Code Fellows](https://www.codefellows.org/)
 + [TreeHouse](https://teamtreehouse.com/home)
 + [Stack Overflow](https://stackoverflow.com/)
+
