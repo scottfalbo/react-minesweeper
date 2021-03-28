@@ -58,6 +58,8 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
   + Refactors are finished.
 + 12/21/20 - 
   + Created `deploy` branch for deployment build
++ 03/27/2021 -
+  + Fixed image path issue.
 
 
 ## Contact
@@ -69,7 +71,3 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 + [Code Fellows](https://www.codefellows.org/)
 + [TreeHouse](https://teamtreehouse.com/home)
 + [Stack Overflow](https://stackoverflow.com/)
-# react-minesweeper
-# react-minesweeper
-# react-minesweeper
-# react-minesweeper

@@ -37,11 +37,11 @@ const BoardCell = ({ cell, clicks }) => {
   }
   // Add images to cells based on view state
   const cellImage = (cell) => {
-    if (cell.view === '.') { return "/../images/spacer.png" }
-    else if (cell.view === 'F') { return "/../images/flag_icon.png" }
-    else if (cell.view === 'X') { return "/../images/bomb.png" }
-    else if (cell.view === 'L') { return "/../images/bomb-X.png" }
-    else { return "/../images/spacer.png" }
+    if (cell.view === '.') { return "https://github.com/scottfalbo/react-minesweeper-v2/blob/main/public/images/spacer.png?raw=true" }
+    else if (cell.view === 'F') { return "https://github.com/scottfalbo/react-minesweeper-v2/blob/main/public/images/flag_icon.png?raw=true" }
+    else if (cell.view === 'X') { return "https://github.com/scottfalbo/react-minesweeper-v2/blob/main/public/images/bomb.png?raw=true" }
+    else if (cell.view === 'L') { return "https://github.com/scottfalbo/react-minesweeper-v2/blob/main/public/images/bomb-X.png?raw=true" }
+    else { return "https://github.com/scottfalbo/react-minesweeper-v2/blob/main/public/images/spacer.png?raw=true" }
   }
 
   return (
@@ -53,7 +53,7 @@ const BoardCell = ({ cell, clicks }) => {
         onMouseLeave={leaveHighlight}
       >
         <p>{cell.view}</p>
-        <img src={cellImage(cell)} alt="......." />
+        <img src={cellImage(cell)} alt=" " />
       </button>
     </td>
   );
