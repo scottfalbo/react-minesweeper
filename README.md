@@ -64,6 +64,7 @@ This is my first React app.  I decided to recreate the Windows classic Minesweep
 
 ## Contact
 + Email: Scottfalboart@gmail.com
++ [scottfalbo.com](https://www.scottfalbo.com)
 + [GitHub](https://github.com/scottfalbo)
 + [LinkedIn](https://www.linkedin.com/in/scott-falbo/)
 
